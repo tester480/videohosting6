@@ -1,0 +1,2 @@
+$(document).ready(function(){function s(){if($(window).width()<601){var s=$(".thumb-bl").width(),i=(s-2)/300,t=(250*i-250)/2,n=(300*i-300)/2;1>i?$(".js-spot iframe").css({transform:"scale("+i+")",margin:""+t+"px 0 0 "+n+"px"}):i>1&&$(".js-spot iframe").css({transform:"scale("+i+")",margin:""+t+"px 0 0 0px"});var r=250*i;$(".js-spot").css({height:""+r+"px"});}else $(".js-spot iframe").css({transform:"scale(1)",margin:"0"}),$(".js-spot").css({height:"250px"});}
+s(),$(window).on("resize",function(){s();});});
